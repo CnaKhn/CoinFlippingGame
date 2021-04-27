@@ -9,14 +9,6 @@ public class Player {
         name = newName;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getCoinOption() {
-        return coinOption;
-    }
-
     public void setCoinOption(String opponentFlip) {
         this.coinOption = (opponentFlip == "Heads")?"Tails":"Heads";
     }
